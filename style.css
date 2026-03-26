@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000010;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+#problem {
+    color: #ccc;
+    font-size: 6rem;
+    font-weight: bold;
+    opacity: 0;
+    text-align: center;
+    transition: opacity 1.2s ease;
+}
